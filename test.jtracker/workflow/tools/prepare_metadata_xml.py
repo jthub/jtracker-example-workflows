@@ -22,11 +22,7 @@ output_json = {
     'xml_file': '/path/to/xml_file.xml',
     'xml_file_name': 'xml_file.xml',
     'xml_file_size': 23233,
-    'xml_file_md5sum': 'xxxxxxxx',
-    'runtime': {
-        'task_start': task_start,
-        'task_stop': task_stop
-    }
+    'xml_file_md5sum': 'xxxxxxxx'
 }
 
 save_output_json(output_json)

@@ -19,10 +19,7 @@ time.sleep(randint(1,10))
 task_stop = int(time.time())
 
 output_json = {
-    'runtime': {
-        'task_start': task_start,
-        'task_stop': task_stop
-    }
+    'file': '/abdx'
 }
 
 save_output_json(output_json)

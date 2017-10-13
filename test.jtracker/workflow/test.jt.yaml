@@ -199,10 +199,18 @@ tools:
       file:
         type: string
         is_file: true
+    output:
+      file:
+        type: string
+        is_file: true
 
   generate_bai:
     command: generate_bai.py
     input:
+      file:
+        type: string
+        is_file: true
+    output:
       file:
         type: string
         is_file: true
